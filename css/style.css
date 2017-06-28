@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    border: 1px solid #000;
+    margin: 62px auto;
+    padding: 0;
+}
+
+.flex-items {
+    flex: 0 1 100px;
+    height: 100px;
+    border: 1px solid #ff0000;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.inner-item {
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border: 1px solid #0000ff;
+}
